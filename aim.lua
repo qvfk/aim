@@ -1,6 +1,6 @@
 _G.Prediction =  (  .18  )
 
-_G.FOV =  (  200  )
+_G.FOV =  (  99  )
 
 _G.AimKey =  (  "c"  )
 
@@ -20,7 +20,7 @@ FOV_CIRCLE.Visible = true
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = 1
-FOV_CIRCLE.Color = Color3.new(0, 1, 0)
+FOV_CIRCLE.Color = Color3.new(0, 0, 0)
 FOV_CIRCLE.Radius = _G.FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 
