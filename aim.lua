@@ -5,9 +5,7 @@ _G.FOV =  (  200  )
 _G.AimKey =  (  "c"  )
 
 
---[[
-	Do not edit anything under this.
-]]
+
 
 local SilentAim = true
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -49,9 +47,7 @@ _G.FOV =  (  99  )
 _G.AimKey =  (  "c"  )
 
 
---[[
-	Do not edit anything under this.
-]]
+
 
 local SilentAim = true
 local LocalPlayer = game:GetService("Players").LocalPlayer
