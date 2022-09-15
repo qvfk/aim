@@ -91,3 +91,11 @@ oldIndex = hookmetamethod(game, "__index", function(self, Index)
 	end
 	return oldIndex(self, Index)
 end)
+
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Succesfully injected; -- the title (ofc)
+Text = "slvs silent aim, - sip kute"; -- what the text says (ofc)
+Icon = ""; -- the image if u want. 
+Duration = 5; -- how long the notification should in secounds
+})
