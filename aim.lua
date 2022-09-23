@@ -132,6 +132,3 @@ end
 
 Notify("Silent Aim By Slvs", "enjoy ;)", 5)
 
-hookfunction((gcinfo or collectgarbage), function(...) -- Hook gcinfo or collectgarbage
-   return math.random(200,350) -- Always return a legit looking value
-end)
